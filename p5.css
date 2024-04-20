@@ -1,0 +1,125 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5BC5A6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login {
+    width: 800px;
+    height: 720px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.header {
+    background-color: #5BC5A6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h2 {
+    text-align: center; 
+    width: 100%; 
+    padding: 5px 0; 
+}
+  
+  img{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  form {
+    position: relative;
+    top: -80px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    
+}
+#show-password{
+    position: relative;
+    left: -250px;
+    top: -30px;
+}
+#username{
+    width:400%;
+    position: relative;
+    left: -230px;
+    background-color: #ECECEC;
+    height: 4vh;
+    border: 1px solid #151010;;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#password{
+    width:346%;
+    position: relative;
+    left: -218px;
+    background-color: #ECECEC;
+    height: 4vh;
+    border: 1px solid #151010;;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.buttons{
+    position: relative;
+    top: -120px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.buttons [type="submit"]{
+    width: 250px;
+    height: 4vh;
+    background-color: #5BC5A6;
+    border: 1px solid #225445 ;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+#logins{
+    width: 700px;
+}
+#logins:hover{
+    background-color: #15a278;
+}
+
+#Create{
+    background-color: #666666;
+}
+#Create:hover{
+    background-color: rgb(51, 50, 50);
+}
+#Individuals{
+    width: 350px;
+}
+#Individuals:hover{
+    background-color: #15a278;
+}
+
+

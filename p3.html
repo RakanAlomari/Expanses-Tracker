@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Dashboard</title>
+   
+   <link rel="stylesheet" href="p3.css">
+</head>
+<body>
+  <div class="popup" id="popup1">
+    <p>
+      <label for="first">Balance: </label>
+      <input type="text" name="first" id="first">
+    </p>
+    <p>
+      <label for="second">Monthly Income: </label>
+      <input type="text" name="second" id="second">
+    </p>
+    <p>
+      <label for="third">Budget: </label>
+      <input type="text" name="third" id="third">
+    </p>
+    <button type="button" id="processe1">OK</button>
+  </div>
+  <div class="popup" id="popup2">
+    <p>Type: </p>
+    <p>
+      <input type="radio" name="type" value="Gasoline" id="gas">
+      <label for="gas">Gasoline</label>
+    </p>
+    <p>
+      <input type="radio" name="type" value="pit" id="pit">
+      <label for="gas">pit</label>
+    </p>
+    <p>
+      <input type="radio" name="type" value="shopping" id="shopping">
+      <label for="gas">shopping</label>
+    </p>
+    <p>
+      <label for="price">Price: </label>
+      <input type="text" name="price" id="price">
+    </p>
+    <button type="button" id="processe2">OK</button>
+  </div>
+  <main>
+    <header>
+      <div class="title">Expanses Tracker</div>
+      <a href=P6.html><img src="images/account.svg" alt="account"></a>
+    </header>
+    <nav>
+      <a href="p3.html">Dashboard</a>
+      <a href="p4.html">Goals</a>
+      <a href="p5.html">Credits</a>
+    </nav>
+    <section id="home">
+      <div class="content1">
+        <p>Total Balance: <span id="balance">0</span> SAR</p>
+        <p>Monthly Income: <span id="income">0</span> SAR</p>
+        <p>The Budget: <span id="budget">0</span> SAR</p>
+        <p>Expanses: <span id="expanses">0</span> SAR</p>
+        <button type="button" id="edit">Edit</button>
+      </div>
+      <div class="content2">
+
+      </div>
+      <div class="content3">
+
+      </div>
+    </section>
+    <section id="widgets">
+      <div class="listW">
+        
+      </div>
+      <div class="addList">
+        <button type="button" id="add1"><img src="images/add1.svg" alt="add"></button>
+      </div>
+    </section>
+    <footer>
+      <div class="rights">© 2024 Expanses Tracker - All rights reserved.</div>
+    </footer>
+  </main>
+  <script src="p3.js"></script>
+</body>
+</html>
